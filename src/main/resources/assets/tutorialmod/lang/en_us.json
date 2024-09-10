@@ -3,5 +3,9 @@
   "item.tutorialmod.raw_alexandrite" : "Raw Alexandrite",
   "item.tutorialmod.pizza" : "Pizza",
   "item.tutorialmod.superstar" : "Super Star",
-  "block.tutorialmod.alexandrite_block" : "BLock of Alexandrite"
+  "block.tutorialmod.alexandrite_block" : "BLock of Alexandrite",
+  "block.tutorialmod.raw_alexandrite_block" : "Block of Raw Alexandrite",
+  "creativetab.tutorialmod.alexandrite_items" : "Alexandrite Items",
+  "creativetab.tutorialmod.alexandrite_blocks" : "Alexandrite Blocks"
+
 }
