@@ -3,12 +3,13 @@
   "item.tutorialmod.raw_alexandrite" : "Raw Alexandrite",
   "item.tutorialmod.pizza" : "Pizza",
   "item.tutorialmod.superstar" : "Super Star",
+  "item.tutorialmod.chisel" : "Chisel",
+
   "block.tutorialmod.alexandrite_block" : "BLock of Alexandrite",
   "block.tutorialmod.raw_alexandrite_block" : "Block of Raw Alexandrite",
   "block.tutorialmod.alexandrite_ore" : "Alexandrite Ore",
   "block.tutorialmod.alexandrite_deepslate_ore" : "Alexandrite Deepslate Ore",
 
   "creativetab.tutorialmod.alexandrite_items" : "Alexandrite Items",
-  "creativetab.tutorialmod.alexandrite_blocks" : "Alexandrite Blocks"
-
+  "creativetab.tutorialmod.alexandrite_blocks" : "Alexandrite Blocks",
 }
