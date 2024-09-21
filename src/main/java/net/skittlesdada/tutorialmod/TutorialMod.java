@@ -60,6 +60,10 @@ public class TutorialMod {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
             event.accept(ModItems.PIZZA);
+            event.accept(ModItems.CHEESE);
+            event.accept(ModItems.TOMATO);
+            event.accept(ModItems.TOMATO_SAUCE);
+
             event.accept(ModItems.SUPERSTAR);
             event.accept(ModItems.RAW_ALEXANDRITE);
         }

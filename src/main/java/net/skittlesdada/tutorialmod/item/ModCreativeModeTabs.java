@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModItems.KOHLRABI.get());
                         output.accept(ModItems.AURORA_ASHES.get());
+
                     })
                     .build());
 
