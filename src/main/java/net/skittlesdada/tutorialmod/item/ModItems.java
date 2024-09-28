@@ -1,9 +1,7 @@
 package net.skittlesdada.tutorialmod.item;
 
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,8 +27,14 @@ public class ModItems {
     public static final RegistryObject<Item> TOMATO_SAUCE = ITEMS.register("tomato_sauce", () -> new Item(new Item.Properties().food(ModFoodProperties.TOMATO_SAUCE)));
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", () -> new Item(new Item.Properties().food(ModFoodProperties.CHEESE)));
 
+// WEAPONS!
 
+    public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register(
+            "alexandrite_sword", () -> new SwordItem(Tiers.NETHERITE, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(Tiers.NETHERITE, 5, -2.4F))));
 
+//    public static final Item ALEXANDRITE_SWORD = registerItem(
+//            "alexandrite_sword", new SwordItem(Tiers.NETHERITE, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(Tiers.NETHERITE, 3, -2.4F)))
+//    );
 
 
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi", () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI))
