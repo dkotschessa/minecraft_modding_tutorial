@@ -1,4 +1,4 @@
-package net.skittlesdada.tutorialmod.block.datagen;
+package net.skittlesdada.tutorialmod.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -13,8 +13,8 @@ import net.skittlesdada.tutorialmod.block.ModBlocks;
 import net.skittlesdada.tutorialmod.item.ModItems;
 
 public class ModItemModelProvider extends ItemModelProvider {
-    public ModItemModelProvider(PackOutput output, String modid, ExistingFileHelper existingFileHelper) {
-        super(output, modid, existingFileHelper);
+    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+        super(output, TutorialMod.MOD_ID, existingFileHelper);
     }
 
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
         wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
 
-        simpleBlockItem(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+//        simpleBlockItem(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
 
 
     }

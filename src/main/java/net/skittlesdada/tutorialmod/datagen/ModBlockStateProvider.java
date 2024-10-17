@@ -7,11 +7,12 @@ import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.skittlesdada.tutorialmod.TutorialMod;
 import net.skittlesdada.tutorialmod.block.ModBlocks;
 
 public class ModBlockStateProvider extends BlockStateProvider {
-    public ModBlockStateProvider(PackOutput output, String modid, ExistingFileHelper exFileHelper) {
-        super(output, modid, exFileHelper);
+    public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
+        super(output, TutorialMod.MOD_ID, exFileHelper);
     }
 
     protected void registerStatesAndModels() {
