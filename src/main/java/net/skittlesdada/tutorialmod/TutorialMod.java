@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.skittlesdada.tutorialmod.block.ModBlocks;
+import net.skittlesdada.tutorialmod.component.ModDataComponentTypes;
 import net.skittlesdada.tutorialmod.item.ModCreativeModeTabs;
 import net.skittlesdada.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -37,6 +38,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
 
 

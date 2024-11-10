@@ -8,12 +8,11 @@
     }
   },
   "pattern": [
-    "##",
-    "##",
-    "##"
+    "###",
+    "###"
   ],
   "result": {
-    "count": 3,
+    "count": 2,
     "id": "tutorialmod:alexandrite_trapdoor"
   }
 }

@@ -9,7 +9,17 @@
   "item.tutorialmod.cheese": "Cheese",
   "item.tutorialmod.tomato": "Tomato",
   "item.tutorialmod.tomato_sauce": "Tomato Sauce",
+
+
   "item.tutorialmod.alexandrite_sword": "Alexandrite Sword",
+  "item.tutorialmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.tutorialmod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.tutorialmod.alexandrite_axe": "Alexandrite Axe",
+  "item.tutorialmod.alexandrite_hoe": "Alexandrite Hoe",
+
+
+
+
 
 
 
@@ -30,6 +40,9 @@
   "block.tutorialmod.alexandrite_fence": "Alexandrite Fence",
   "block.tutorialmod.alexandrite_fence_gate": "Alexandrite Fence Gate",
   "block.tutorialmod.alexandrite_wall": "Alexandrite Wall",
+
+  "block.tutorialmod.alexandrite_lamp": "Alexandrite Lamp",
+
 
   "block.tutorialmod.alexandrite_door": "Alexandrite Door",
   "block.tutorialmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
