@@ -29,12 +29,7 @@ public class ModItems {
 
 // WEAPONS!
 
-    public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register(
-            "alexandrite_sword", () -> new SwordItem(Tiers.NETHERITE, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(Tiers.NETHERITE, 5, -2.4F))));
 
-//    public static final Item ALEXANDRITE_SWORD = registerItem(
-//            "alexandrite_sword", new SwordItem(Tiers.NETHERITE, new Item.Properties().fireResistant().attributes(SwordItem.createAttributes(Tiers.NETHERITE, 3, -2.4F)))
-//    );
 
 
     public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi", () -> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI))
@@ -47,7 +42,23 @@ public class ModItems {
     public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
             () -> new FuelItem(new Item.Properties(), 1200));
 
+//   Alexandrite Tools
+    public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
+                                                                                () -> new SwordItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                                                                                        .attributes(SwordItem.createAttributes(ModToolTiers.ALEXANDRITE, 3, -2.4f))));
+    public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
+                                                                                () -> new PickaxeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                                                                                        .attributes(PickaxeItem.createAttributes(ModToolTiers.ALEXANDRITE, 1, -2.8f))));
+    public static final RegistryObject<Item> ALEXANDRITE_SHOVEL = ITEMS.register("alexandrite_shovel",
+                                                                                () -> new ShovelItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                                                                                        .attributes(ShovelItem.createAttributes(ModToolTiers.ALEXANDRITE, 1.5f, -3.0f))));
+    public static final RegistryObject<Item> ALEXANDRITE_AXE= ITEMS.register("alexandrite_axe",
+                                                                                () -> new AxeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                                                                                        .attributes(AxeItem.createAttributes(ModToolTiers.ALEXANDRITE, 6, -3.2f))));
 
+    public static final RegistryObject<Item> ALEXANDRITE_HOE= ITEMS.register("alexandrite_hoe",
+                                                                                () -> new HoeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                                                                                        .attributes(HoeItem.createAttributes(ModToolTiers.ALEXANDRITE, 0, -3.0f))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
